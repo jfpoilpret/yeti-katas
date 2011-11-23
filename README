@@ -1,0 +1,15 @@
+This repository contains Yeti code that implements some katas.
+
+The first kata implemented is FooBarQix (http://www.code-story.net/2011/11/16/foobarqix.html).
+
+Each yeti source file is normally autonomous, i.e. it doesn't depend on any module (besides Yeti standard modules).
+
+Each file contains its own module and can be directly loaded in Yeti REPL, e.g.:
+
+	load foobarqix
+
+Or it can be directly launched from the command line, e.g.:
+
+	java -jar yeti.jar -e "load foobarqix"
+	
+provided yeti.jar is in the same directory as the loaded module (source file).
